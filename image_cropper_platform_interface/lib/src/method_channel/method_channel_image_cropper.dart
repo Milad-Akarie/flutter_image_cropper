@@ -7,6 +7,7 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 
 import 'package:image_cropper_platform_interface/image_cropper_platform_interface.dart';
+import 'package:image_cropper_platform_interface/src/models/cropped_file/io.dart';
 
 const MethodChannel _channel = MethodChannel('plugins.hunghd.vn/image_cropper');
 
